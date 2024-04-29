@@ -1,7 +1,7 @@
 import React from "react";
 import { useState, useEffect } from "react";
 import DayTimeButton from "./DayTimeButton";
-import data from "../data";
+import data from "./data";
 
 function DayTimes ({date}){
     const [selectedButtonIds, setSelectedButtonIds] = useState({});
