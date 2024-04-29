@@ -1,25 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import { useState} from "react";
+
+import MainNavbar from "./MainNavbar";
+
+
+import "./App.css";
+
+import moment from "moment/moment";
+import DayTimes from "./DayTimes";
+import DateNavbar from "./DateNavbar";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    const [date, setDate] = useState(moment());
+    
+
+    return (
+        <div>
+            <MainNavbar />
+            <DateNavbar date={date} setDate={setDate}/>
+            <DayTimes date={date} />
+           
+
+            
+        </div>
+    );
 }
 
 export default App;
+
