@@ -2,6 +2,7 @@ import React from "react";
 import DateButton from "./DateButton";
 import DecreaseButton from "./DecreaseButton";
 import IncreaseButton from "./IncreaseButton";
+import "./DateNavbar.css";
 import moment from "moment/moment";
 
 function DateNavbar({date, setDate}) {
@@ -29,7 +30,7 @@ const formattedDate = (date) => {
     }
 };
     return (
-        <div>
+        <div className="DateNavbar">
             <DecreaseButton onDecrease={decreaseOne} disabled={date.isSame(moment(), "day")} />
             <DateButton date={formattedDate(date)} isActive={true} />
             <DateButton date={formattedDate(date.clone().add(1, "d"))} onClick={increaseOne} />
