@@ -1,0 +1,30 @@
+.MainNavbar_header{
+    
+    display:flex;
+    margin-bottom: 1.5rem;
+}
+
+/* .MainNavbar__icon {
+    background-color: black;
+    max-width: 6.25rem;
+    height: 2.5rem;
+
+    border-radius: 0.5rem;
+
+    padding: 0.5rem 1rem;
+    margin: 1rem;
+} */
+
+.MainNavbar_icon {
+ 
+    height: auto;
+
+    border-radius: 1rem;
+
+    margin: auto;
+
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: auto;
+}
+
