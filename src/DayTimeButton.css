@@ -1,8 +1,5 @@
 .DayTimeButton {
-    margin: auto;
-    flex-wrap: wrap;
     position: relative;
-
 }
 
 .DayTimeButton-Button {
@@ -12,11 +9,12 @@
     border-radius: 0.5rem;
     border: 1px solid #fff;
 
-    padding: 0.5rem 1rem;
-    margin: 0.2rem;
+    padding: 1rem;
+    margin: 0.15rem;
 }
 
-.DayTimeButton-Capacity {   /* Toto je špatný název, všecko v DayTimeButtonu se musí jmenovat DayTimeButton-něco) */
+.DayTimeButton-Capacity {
+    /* Toto je špatný název, všecko v DayTimeButtonu se musí jmenovat DayTimeButton-něco) */
     font-size: 0.5rem;
 
     position: absolute;
