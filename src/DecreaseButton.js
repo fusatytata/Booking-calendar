@@ -1,8 +1,9 @@
 import React from "react";
+import "./DecreaseButton.css";
 
 const DecreaseButton = ({onDecrease, disabled}) =>{
     return (
-        <button onClick={onDecrease} disabled={disabled}>
+        <button className="DecreaseButton-Button" onClick={onDecrease} disabled={disabled}>
                     <svg
                         alt=""
                         xmlns="http://www.w3.org/2000/svg"
