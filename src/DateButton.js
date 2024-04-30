@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 import "./DateButton.css";
 
 function DateButton({ date, isActive }) {
@@ -16,5 +16,3 @@ function DateButton({ date, isActive }) {
 export default DateButton;
 
 /* TODO: jak funkci z DayTimeButton - zelenání poslat zde nebo třeba do MainNavbar? */
-
-

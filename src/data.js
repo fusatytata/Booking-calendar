@@ -70,55 +70,55 @@ const data = [
       OriginalCapacity: 2
     }, */
     {
-      Time: "14:00",
-      Capacity: 1,
-      OriginalCapacity: 2
+        Time: "14:00",
+        Capacity: 1,
+        OriginalCapacity: 2,
     },
     {
-     Time: "15:00",
-      Capacity: 2,
-      OriginalCapacity: 2
+        Time: "15:00",
+        Capacity: 2,
+        OriginalCapacity: 2,
     },
     {
-      Time: "16:00",
-      Capacity: 2,
-      OriginalCapacity: 2
+        Time: "16:00",
+        Capacity: 2,
+        OriginalCapacity: 2,
     },
     {
-      Time: "17:00",
-      Capacity: 2,
-      OriginalCapacity: 2
+        Time: "17:00",
+        Capacity: 2,
+        OriginalCapacity: 2,
     },
     {
-      Time: "18:00",
-      Capacity: 2,
-      OriginalCapacity: 2
+        Time: "18:00",
+        Capacity: 2,
+        OriginalCapacity: 2,
     },
     {
-      Time: "19:00",
-      Capacity: 2,
-      OriginalCapacity: 2
+        Time: "19:00",
+        Capacity: 2,
+        OriginalCapacity: 2,
     },
     {
-      Time: "20:00",
-      Capacity: 2,
-      OriginalCapacity: 2
+        Time: "20:00",
+        Capacity: 2,
+        OriginalCapacity: 2,
     },
     {
-      Time: "21:00",
-      Capacity: 2,
-      OriginalCapacity: 2
+        Time: "21:00",
+        Capacity: 2,
+        OriginalCapacity: 2,
     },
     {
-      Time: "22:00",
-      Capacity: 2,
-      OriginalCapacity: 2
+        Time: "22:00",
+        Capacity: 2,
+        OriginalCapacity: 2,
     },
     {
-     Time: "23:00",
-     Capacity: 2,
-     OriginalCapacity: 2
-   }
- ];
- 
- export default data;
+        Time: "23:00",
+        Capacity: 2,
+        OriginalCapacity: 2,
+    },
+];
+
+export default data;

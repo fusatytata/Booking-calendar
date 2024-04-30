@@ -1,23 +1,18 @@
-.DateButton{
-   
-   margin-bottom: 1.5rem;
+.DateButton {
+    margin-bottom: 1.5rem;
 }
 
-.DateButton-Button{
-   
+.DateButton-Button {
     color: white;
     border: 1px solid #fff;
     border-radius: 0.5rem;
 
     min-width: 9rem;
-    
+
     padding: 1rem;
     margin: 0.15rem;
-
-   
 
     flex-grow: 1;
     flex-shrink: 1;
     flex-basis: auto;
 }
-

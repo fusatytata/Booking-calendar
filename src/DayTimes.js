@@ -4,7 +4,7 @@ import DayTimeButton from "./DayTimeButton";
 import "./DayTimes.css";
 import data from "./data";
 
-function DayTimes ({date}){
+function DayTimes({ date }) {
     const [selectedButtonIds, setSelectedButtonIds] = useState({});
 
     useEffect(() => {
@@ -15,7 +15,7 @@ function DayTimes ({date}){
                 [dateString]: null,
             }));
         }
-    }, [date, selectedButtonIds])
+    }, [date, selectedButtonIds]);
 
     const taskHandler = (id) => {
         const dateString = date.format("YYYY-MM-DD");
@@ -24,7 +24,6 @@ function DayTimes ({date}){
             [dateString]: prevIds[date.format("YYYY-MM-DD")] === id ? null : id,
         }));
     };
-
 
     const isSelected = (uniqueId) => {
         return selectedButtonIds[date.format("YYYY-MM-DD")] === uniqueId;
@@ -44,11 +43,11 @@ function DayTimes ({date}){
         );
     });
 
-    return(
+    return (
         <div>
             <div className="DayTimes">{times}</div>
         </div>
-    )
+    );
 }
 
 export default DayTimes;

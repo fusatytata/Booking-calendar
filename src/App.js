@@ -1,7 +1,6 @@
-import { useState} from "react";
+import { useState } from "react";
 
 import MainNavbar from "./MainNavbar";
-
 
 import "./App.css";
 
@@ -11,19 +10,14 @@ import DateNavbar from "./DateNavbar";
 
 function App() {
     const [date, setDate] = useState(moment());
-    
 
     return (
         <div>
             <MainNavbar />
-            <DateNavbar date={date} setDate={setDate}/>
+            <DateNavbar date={date} setDate={setDate} />
             <DayTimes date={date} />
-           
-
-            
         </div>
     );
 }
 
 export default App;
-
