@@ -6,7 +6,7 @@ function DateButton({ date, isActive }) {
 
     return (
         <div className="DateButton">
-            <button style={{ backgroundColor: active }}>
+            <button className="DateButton-Button" style={{ backgroundColor: active }}>
                 {date}
             </button>
         </div>

@@ -1,6 +1,7 @@
 import React from "react";
 import { useState, useEffect } from "react";
 import DayTimeButton from "./DayTimeButton";
+import "./DayTimes.css";
 import data from "./data";
 
 function DayTimes ({date}){
