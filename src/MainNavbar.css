@@ -1,4 +1,4 @@
-.MainNavbar_header{
+.MainNavbar-Header{
     
     display:flex;
     margin-bottom: 1.5rem;
@@ -15,7 +15,7 @@
     margin: 1rem;
 } */
 
-.MainNavbar_icon {
+.MainNavbar-Icon {
  
     height: auto;
 

@@ -31,10 +31,10 @@ const formattedDate = (date) => {
 };
     return (
         <div className="DateNavbar">
-            <DecreaseButton className="DateNavbar-Decrease" onDecrease={decreaseOne} disabled={date.isSame(moment(), "day")} />
-            <DateButton className="DateNavbar-DateButton" date={formattedDate(date)} isActive={true} />
+            <DecreaseButton  onDecrease={decreaseOne} disabled={date.isSame(moment(), "day")} />
+            <DateButton  date={formattedDate(date)} isActive={true} />
             <DateButton date={formattedDate(date.clone().add(1, "d"))} onClick={increaseOne} />
-            <IncreaseButton className="DateNavbar-Increase" onIncrease={increaseOne} />
+            <IncreaseButton  onIncrease={increaseOne} />
         </div>
     );
 }

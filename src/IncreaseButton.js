@@ -1,8 +1,9 @@
 import React from "react";
+import "./IncreaseButton.css";
 
 const IncreaseButton = (props) =>{
     return (
-        <button onClick={props.onIncrease}>
+        <button className="IncreaseButton-Button" onClick={props.onIncrease}>
                      <svg
                         alt=""
                         xmlns="http://www.w3.org/2000/svg"

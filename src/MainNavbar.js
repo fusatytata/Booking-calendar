@@ -4,8 +4,8 @@ import "./MainNavbar.css";
 function MainNavbar() {
     return (
         <div className="MainNavbar">
-            <div class="MainNavbar_header">
-                <button className="MainNavbar_icon">
+            <div class="MainNavbar-Header">
+                <button className="MainNavbar-Icon">
                     <svg
                         alt="person"
                         xmlns="http://www.w3.org/2000/svg"
@@ -24,7 +24,7 @@ function MainNavbar() {
                         <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
                     </svg>
                 </button>
-                <button className="MainNavbar_icon">
+                <button className="MainNavbar-Icon">
                     <svg
                         alt="star"
                         xmlns="http://www.w3.org/2000/svg"
@@ -42,7 +42,7 @@ function MainNavbar() {
                         <path d="M12 17.75l-6.172 3.245l1.179 -6.873l-5 -4.867l6.9 -1l3.086 -6.253l3.086 6.253l6.9 1l-5 4.867l1.179 6.873z" />
                     </svg>
                 </button>
-                <button className="MainNavbar_icon">
+                <button className="MainNavbar-Icon">
                     <svg
                         alt="history"
                         xmlns="http://www.w3.org/2000/svg"
@@ -61,7 +61,7 @@ function MainNavbar() {
                         <path d="M3.05 11a9 9 0 1 1 .5 4m-.5 5v-5h5" />
                     </svg>
                 </button>
-                <button className="MainNavbar_icon">
+                <button className="MainNavbar-Icon">
                     <svg
                         alt="calendar"
                         xmlns="http://www.w3.org/2000/svg"
