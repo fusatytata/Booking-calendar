@@ -6,5 +6,7 @@
     flex-shrink: 0;
     flex-basis: auto;
 
-    margin-right: auto;
+    margin-left: 0.015rem;
+    margin-right: 0.015rem;
+
 }
