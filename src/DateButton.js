@@ -1,14 +1,11 @@
 import React from "react";
 import "./DateButton.css";
 
-function DateButton({ date, isActive }) {
-    const active = isActive ? "#bada55" : "transparent";
-
+function DateButton({ today, tomorrow }) {
     return (
         <div className="DateButton">
-            <button className="DateButton-Button" style={{ backgroundColor: active }}>
-                {date}
-            </button>
+            <button className="DateButton-Today">{today}</button>
+            <button className="DateButton-Tomorrow">{tomorrow}</button>
         </div>
     );
 }

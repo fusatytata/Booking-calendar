@@ -4,8 +4,3 @@
 
 }
 
-@media (min-width: 18.75rem) {
-    .DateButton-Button.tomorrow {
-        display: none;
-    }
-}

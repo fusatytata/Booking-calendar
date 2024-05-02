@@ -31,8 +31,7 @@ function DateNavbar({ date, setDate }) {
     return (
         <div className="DateNavbar">
             <DecreaseButton onDecrease={decreaseOne} disabled={date.isSame(moment(), "day")} />
-            <DateButton date={formattedDate(date)} isActive={true} />
-            <DateButton date={formattedDate(date.clone().add(1, "d"))} onClick={increaseOne} />
+            <DateButton today={formattedDate(date)} tomorrow={formattedDate(date.clone().add(1, "d"))}  />
             <IncreaseButton onIncrease={increaseOne} />
         </div>
     );
