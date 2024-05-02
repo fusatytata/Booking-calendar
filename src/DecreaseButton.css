@@ -1,4 +1,12 @@
 .DecreaseButton-Button {
+    margin: 0.15rem;
+
     border-radius: 0.5rem;
     height: 100%;
+
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: auto;
+
+    margin-left: auto;
 }
