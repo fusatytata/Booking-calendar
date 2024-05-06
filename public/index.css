@@ -11,16 +11,15 @@ html {
 }
 
 body {
-    background-color: rebeccapurple;
+    background-color: #192438;
     margin: 0;
     width: 100%;
 
 
 
-    background-image: linear-gradient(to top, rgb(0, 0, 0), rgb(0 0 0 / 0%) 37.5rem);
-    background-size: 100%;
+    background-image: linear-gradient(to top, #2d5b81, #192438 37.5rem);    background-size: 100%;
     background-repeat: no-repeat;
-    background-position: bottom;
+
 
     border: 1px solid red;
 }

@@ -3,8 +3,8 @@
 }
 
 .DateButton-Button {
-    color: white;
-    border: 1px solid #fff;
+    color: #c0b8b8;
+    border: 1px solid #c0b8b8;
     border-radius: 0.5rem;
 
     min-width: 9rem;
@@ -19,8 +19,8 @@
 
 .DateButton-Today,
 .DateButton-Tomorrow {
-    color: white;
-    border: 1px solid #fff;
+    color: #c0b8b8;
+    border: 1px solid #c0b8b8;
     border-radius: 0.5rem;
 
     min-width: 9rem;
