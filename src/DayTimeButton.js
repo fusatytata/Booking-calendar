@@ -2,7 +2,7 @@ import React from "react";
 import "./DayTimeButton.css";
 
 function DayTimeButton({ value, capacity, originalCapacity, onClick, isSelected }) {
-    const backgroundColor = isSelected ? "#bada55" : "transparent";
+    const backgroundColor = isSelected ? "#72b015" : "transparent";
     return (
         <div className="DayTimeButton">
             <button className="DayTimeButton-Button" onClick={onClick} style={{ backgroundColor }}>

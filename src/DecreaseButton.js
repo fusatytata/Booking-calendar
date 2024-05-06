@@ -12,7 +12,7 @@ const DecreaseButton = ({ onDecrease, disabled }) => {
                 height="44"
                 viewBox="0 0 24 24"
                 stroke-width="1.5"
-                stroke="#c0b8b8"
+                stroke="#2c3e50"
                 fill="none"
                 stroke-linecap="round"
                 stroke-linejoin="round"
