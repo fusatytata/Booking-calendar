@@ -12,14 +12,10 @@ html {
 
 body {
     background-color: #192438;
-    margin: 0;
-    width: 100%;
-
+    margin: 0 auto;
+    max-width: 35rem;
 
 
     background-image: linear-gradient(to top, #2d5b81, #192438 37.5rem);    background-size: 100%;
     background-repeat: no-repeat;
-
-
-    border: 1px solid red;
 }
