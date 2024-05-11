@@ -36,3 +36,12 @@
     background-color: #323a4f;
     transform: none;
 }
+
+.DecreaseButton-Button:disabled {
+    opacity: 0.5;
+}
+
+.DecreaseButton-Button:disabled:hover {
+    background-color: #323a4f;
+    transform: none;
+}
