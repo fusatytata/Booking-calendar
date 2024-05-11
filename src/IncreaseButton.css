@@ -1,5 +1,15 @@
+.IncreaseButton-Button:hover {
+    background-color: #1c591f; /* Change background color on hover */
+    transform: scale(1.05); /* Scale up slightly on hover */
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -o-transform: scale(1.05);
+    transform: scale(1.05);
+}
+
 .IncreaseButton-Button {
-    background-color: #323a4f ;
+    background-color: #323a4f;
     border: none;
 
     border-radius: 0.5rem;
@@ -13,4 +23,15 @@
     margin-left: 0.015rem;
     margin-right: 0.015rem;
 
+    -webkit-transition: all 0.1s linear;
+    transition: all 0.1s linear;
+}
+
+.DecreaseButton-Button:disabled {
+    opacity: 0.5;
+}
+
+.DecreaseButton-Button:disabled:hover {
+    background-color: #323a4f;
+    transform: none;
 }
