@@ -15,7 +15,12 @@ body {
     margin: 0 auto;
     max-width: 35rem;
 
+    background:
+    radial-gradient(
+      circle at 50% 0,
+      #192438,
+      #2d5b81 99%
+    ) #c0b8b8;
+   
+    }
 
-    background-image: linear-gradient(to top, #2d5b81, #192438 37.5rem);    background-size: 100%;
-    background-repeat: no-repeat;
-}
